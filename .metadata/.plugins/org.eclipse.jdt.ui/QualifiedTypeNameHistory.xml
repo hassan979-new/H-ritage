@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.example.tp.CompteEpargne"/>
+    <fullyQualifiedTypeName name="com.example.tp.Compte"/>
+    <fullyQualifiedTypeName name="com.example.tp.Animal"/>
+    <fullyQualifiedTypeName name="com.example.tp.Vehicule"/>
+    <fullyQualifiedTypeName name="com.example.tp.Motorise"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.example.entities.Document"/>
+</qualifiedTypeNameHistroy>

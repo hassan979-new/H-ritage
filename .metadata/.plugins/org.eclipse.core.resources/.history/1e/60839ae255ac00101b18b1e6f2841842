@@ -1,0 +1,40 @@
+package com.example.entities;
+
+import java.util.Iterator;
+
+public class Bibliotheque {
+	private int capacite;
+	private int nbDocuments;
+	private Document[] documents;
+	
+	
+	public Bibliotheque(int capacite) {
+		this.capacite = capacite;
+		this.nbDocuments = 0;
+		this.documents = new Document[capacite];
+	}
+	
+	void afficherDocuments() {
+		for (int i = 0; i < documents.length; i++) {
+			System.out.println(documents[i]);
+		}
+	}
+	
+	boolean ajouter(Document doc) {
+		if (doc==null || nbDocuments>capacite) {
+			return false;
+		}
+		if (nbDocuments<=capacite) {
+			documents[nbDocuments++]=doc;
+		}
+		return true;
+	}
+	
+	boolean supprimer(Document doc) {
+		for (int i = 0; i < documents.length; i++) {
+			if (documents[i].equals(doc)) {
+				
+			}
+		}
+	}
+}

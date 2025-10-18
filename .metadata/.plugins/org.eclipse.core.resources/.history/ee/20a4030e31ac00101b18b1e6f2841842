@@ -1,0 +1,12 @@
+package com.example.tp;
+
+public class CompteEpargne extends Compte {
+
+	private double tauxInteret;
+
+	public CompteEpargne(double soldeInitiale, double tauxInteret) {
+		super(soldeInitiale);
+		this.tauxInteret = tauxInteret;
+	}
+	
+	

@@ -1,0 +1,23 @@
+package com.example.tp;
+
+public class Compte {
+
+	private static int compteur = 0;
+	private final int numero;
+	protected double solde;
+	public Compte(double soldeInitiale) {
+		this.numero = ++compteur;
+		this.solde = solde;
+	}
+	public double getSolde() {
+		return solde;
+	}
+	
+	public int getNumero() {
+		return numero;
+	}
+	
+	
+	
+	
+}

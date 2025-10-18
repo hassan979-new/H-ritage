@@ -1,0 +1,9 @@
+package com.example.tp;
+
+public class Animal {
+	private static int compteur;
+	private final int id;
+	protected String nom;
+	protected int age;
+	
+}
