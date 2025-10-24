@@ -133,19 +133,24 @@ Classe Flotte :
 ## 🖥️ Example Execution
 
 ### Hiérarchie de comptes bancaires :
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/b854caf0-21ee-4ad4-a0cf-2fdd23a1390f" />
 ### Héritage et gestion d’un zoo avec tableau dynamique d’animaux : 
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/adef306e-bc7a-442b-9cc1-32e35f5550ec" />
 ### Parc de véhicules – Héritage, composition et gestion de flotte :
-
+- <img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/7627d223-3f33-4421-9896-70ec5a2f25c6" />
 ### Gestion d'une Bibliothèque :
 ##### 1. Afficher tous les documents
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/6773d4f5-dfbb-477b-874e-a4e843741163" />
 ##### 2. Ajouter un document
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/d4d86604-af7f-486a-8bda-6ce4461c760f" />
 ##### 3. Supprimer un document
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/720a3671-b6d9-4d4b-9739-dcb4b2a5ae79" />
 ##### 4. Rechercher un document par code
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/042de843-eea8-4542-8809-6185c420d283" />
 ##### 5. Afficher les auteurs
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/95160e5c-397e-4d64-8c09-11ebe7881347" />
 ##### 0. Quitter
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/ac918aa1-4f04-4bfb-a5da-c2fec8d468a2" />
 ## 💡 Concepts Practiced
 
 - L’héritage pour structurer les hiérarchies
