@@ -1,20 +1,19 @@
 package com.example.tp;
 
 public class Moto extends Motorise {
-    private double cylindree; // cm³
+	private double cylindree; // cm³
 
-    public Moto(String modele, Moteur moteur, double carburant, double cylindree) {
-        super(modele, moteur, carburant);
-        this.cylindree = cylindree;
-    }
+	public Moto(String modele, Moteur moteur, double carburant, double cylindree) {
+		super(modele, moteur, carburant);
+		this.cylindree = cylindree;
+	}
 
-    public void faireWheelie() {
-        System.out.println(modele + " fait un wheelie !");
-    }
+	public void faireWheelie() {
+		System.out.println(modele + " fait un wheelie !");
+	}
 
-    @Override
-    public String toString() {
-        return super.toString() 
-            + " {Moto, cylindrée=" + cylindree + " cm³}";
-    }
+	@Override
+	public String toString() {
+		return super.toString() + " {Moto, cylindrée=" + cylindree + " cm³}";
+	}
 }

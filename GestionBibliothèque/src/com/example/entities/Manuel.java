@@ -10,8 +10,7 @@ public class Manuel extends Livre {
 
 	@Override
 	public String toString() {
-        return "Manuel - " + super.toString() + ", Niveau : " + niveau;
-    }
-	
-	
+		return "Manuel - " + super.toString() + ", Niveau : " + niveau;
+	}
+
 }

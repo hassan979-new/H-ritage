@@ -10,8 +10,7 @@ public class Roman extends Livre {
 
 	@Override
 	public String toString() {
-        return "Roman - " + super.toString() + ", Prix : " + prix;
-    }
-	
-	
+		return "Roman - " + super.toString() + ", Prix : " + prix;
+	}
+
 }

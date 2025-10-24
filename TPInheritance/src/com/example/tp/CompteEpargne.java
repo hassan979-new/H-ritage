@@ -19,7 +19,6 @@ public class CompteEpargne extends Compte {
 	@Override
 	public void afficherDetails() {
 		System.out.println("CompteEpargne #" + getNumero()
-        + " — solde = " + solde
-        + ", taux = " + tauxInteret + "%");
+				+ " — solde = " + solde + ", taux = " + tauxInteret + "%");
 	}
 }

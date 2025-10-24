@@ -8,16 +8,14 @@ public class CompteCourant extends Compte {
 		super(soldeInitiale);
 		this.decouvertAutoriser = decouvertAutoriser;
 	}
-	
-	 @Override
-	    public void retirer(double montant) {
-	        if (montant > 0 && solde + decouvertAutoriser >= montant) {
-	            solde -= montant;
-	            System.out.println("CompteCourant #" + getNumero()
-	                + " : retrait de " + montant);
-	        } else {
-	            System.out.println("CompteCourant #" + getNumero()
-	                + " : retrait impossible (découvert max dépassé)");
-	        }
-	 }
+
+	@Override
+	public void retirer(double montant) {
+		if (montant > 0 && solde + decouvertAutoriser >= montant) {
+			solde -= montant;
+			System.out.println("CompteCourant #" + getNumero() + " : retrait de " + montant);
+		} else {
+			System.out.println("CompteCourant #" + getNumero() + " : retrait impossible (découvert max dépassé)");
+		}
+	}
 }

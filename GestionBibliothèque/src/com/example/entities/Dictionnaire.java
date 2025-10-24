@@ -12,6 +12,5 @@ public class Dictionnaire extends Document {
 	public String toString() {
 		return "Dictionnaire - " + super.toString() + ", Langue : " + langue;
 	}
-	
-	
+
 }

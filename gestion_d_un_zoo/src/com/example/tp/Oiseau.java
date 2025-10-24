@@ -7,14 +7,13 @@ public class Oiseau extends Animal {
 		super(nom, age);
 		this.envergure = envergure;
 	}
-	
+
 	public void voler() {
 		System.out.println(nom + " s'envole avec une envergure de " + envergure + " m.");
 	}
-	
+
 	@Override
-    public String toString() {
-        return super.toString() +
-               " {Oiseau, envergure=" + envergure + "}";
-    }
+	public String toString() {
+		return super.toString() + " {Oiseau, envergure=" + envergure + "}";
+	}
 }
