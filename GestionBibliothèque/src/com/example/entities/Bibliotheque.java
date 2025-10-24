@@ -29,12 +29,12 @@ public class Bibliotheque {
 
 	public boolean supprimer(Document doc) {
 		if (doc != null) {
-			for (int i = 0; i < documents.length; i++) {
+			for (int i = 0; i < nbDocuments; i++) {
 				if (documents[i].equals(doc)) {
 					for (int j = i; j < documents.length - 1; j++) {
 						documents[j] = documents[j + 1];
 					}
-					documents[capacite] = null;
+					documents[nbDocuments] = null;
 					nbDocuments--;
 					return true;
 				}
@@ -45,7 +45,7 @@ public class Bibliotheque {
 	}
 
 	public Document document(int numEnrg) {
-		for (int i = 0; i < documents.length; i++) {
+		for (int i = 0; i < nbDocuments; i++) {
 			if (documents[i].numEnreg == numEnrg) {
 				return documents[i];
 			}
